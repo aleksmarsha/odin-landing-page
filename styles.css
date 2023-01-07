@@ -1,0 +1,31 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.upper, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
+
+.logo img {
+    max-height: 80px;
+    max-width: 80px;
+}
