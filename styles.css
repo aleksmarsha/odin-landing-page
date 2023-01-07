@@ -14,6 +14,7 @@ body {
     display: flex;
     flex: 1;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .logo {
@@ -39,6 +40,10 @@ a {
     margin: 5px;
 }
 
+a:hover {
+    color:greenyellow;
+}
+
 .links {
     display: flex;
     flex: 1;
@@ -51,4 +56,49 @@ a {
     display: flex;
     flex: 1;
     flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.inform {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inform-first {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.inform-second {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 7px 10px;
+    margin: 5px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #E5E7EB;
+    color: #3882F6;
+}
+
+.picture-energy img {
+    max-height: 500px;
+    max-width: 300px;
 }
