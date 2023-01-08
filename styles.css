@@ -116,3 +116,21 @@ h1 {
     font-weight: 800;
     text-align: center;
 }
+.sources {
+    display: flex;
+    flex: 1;
+}
+
+.pictures-sources {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictures-sources img {
+    max-height: 500px;
+    max-width: 200px;
+    margin: 6px;
+}
