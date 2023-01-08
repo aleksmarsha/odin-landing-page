@@ -60,13 +60,17 @@ a:hover {
 
 .hero {
     display: flex;
-    flex: 1;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 35px
 }
 
 .inform {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 35px;
+    gap: 5px;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .inform-first {
@@ -89,7 +93,6 @@ button {
     text-decoration: none;
     cursor: pointer;
     padding: 7px 10px;
-    margin: 5px;
     font-weight: 700;
 }
 
@@ -99,6 +102,17 @@ button:hover {
 }
 
 .picture-energy img {
-    max-height: 500px;
-    max-width: 300px;
+    max-height: 300px;
+    max-width: 600px;
+}
+
+.picture-energy {
+    padding: 35px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: center;
 }
