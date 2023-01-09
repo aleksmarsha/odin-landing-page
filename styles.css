@@ -92,7 +92,7 @@ button {
     border-radius: 7px;
     text-decoration: none;
     cursor: pointer;
-    padding: 7px 10px;
+    padding: 10px 20px;
     font-weight: 700;
 }
 
@@ -115,6 +115,14 @@ button:hover {
     display: flex;
 }
 
+#main-top {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     font-size: 36px;
     color: #1F2937;
@@ -125,12 +133,13 @@ h1 {
 .sources {
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
     margin: 40px;
 }
 
 .pictures-sources {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 5px;
@@ -138,8 +147,8 @@ h1 {
 }
 
 .pictures-sources img {
-    height: auto;
-    width: 100%;
+    height: 100px;
+    width: 200px;
     border: 3px solid #3882F6;
 }
 
@@ -166,4 +175,58 @@ h1 {
     font-size: 24px;
     font-weight: 400;
     color: #131111;
+}
+
+#main-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 70px 100px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.tops {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.bottoms {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sign-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 5px;
+    gap: 5px;
+}
+
+.sign-right button {
+    border: 3px solid white;
+}
+
+
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.foo-bottom {
+    color: #E5E7EB;
+    font-size: 18px;
 }
